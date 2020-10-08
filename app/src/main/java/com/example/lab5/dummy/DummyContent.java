@@ -29,18 +29,12 @@ public class DummyContent {
         addItem(new DummyItem("1", "Kale\\Lemon Sandwiches", "Details about Item: \nMore details information here."));
         addItem(new DummyItem("2", "Mango-Lime Salad", "Details about Item: \nMore details information here."));
         addItem(new DummyItem("3", "Sweet Potato and Lentil Soup", "Details about Item: \nMore details information here."));
-        addItem(new DummyItem("4", "Kale\\Lemon Sandwiches", "Details about Item: \nMore details information here."));
-        addItem(new DummyItem("5", "Kale\\Lemon Sandwiches", "Details about Item: \nMore details information here."));
-        addItem(new DummyItem("6", "Kale\\Lemon Sandwiches", "Details about Item: \nMore details information here."));
-        addItem(new DummyItem("7", "Kale\\Lemon Sandwiches", "Details about Item: \nMore details information here."));
-        addItem(new DummyItem("8", "Kale\\Lemon Sandwiches", "Details about Item: \nMore details information here."));
-        addItem(new DummyItem("9", "Kale\\Lemon Sandwiches", "Details about Item: \nMore details information here."));
-
-
-        // Add some sample items.
-//        for (int i = 1; i <= COUNT; i++) {
-//            addItem(createDummyItem(i));
-//        }
+        addItem(new DummyItem("4", "Lime Mousse", "Details about Item: \nMore details information here."));
+        addItem(new DummyItem("5", "Broiled Tilapia Parmeasan", "Details about Item: \nMore details information here."));
+        addItem(new DummyItem("6", "Honey Lime with Aloe", "Details about Item: \nMore details information here."));
+        addItem(new DummyItem("7", "Northern Lights", "Details about Item: \nMore details information here."));
+        addItem(new DummyItem("8", "Deerioca Fever", "Details about Item: \nMore details information here."));
+        addItem(new DummyItem("9", "Kelp Water", "Details about Item: \nMore details information here."));
     }
 
     private static void addItem(DummyItem item) {
