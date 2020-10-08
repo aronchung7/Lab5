@@ -26,10 +26,21 @@ public class DummyContent {
     private static final int COUNT = 25;
 
     static {
+        addItem(new DummyItem("1", "Kale\\Lemon Sandwiches", "Details about Item: \nMore details information here."));
+        addItem(new DummyItem("2", "Mango-Lime Salad", "Details about Item: \nMore details information here."));
+        addItem(new DummyItem("3", "Sweet Potato and Lentil Soup", "Details about Item: \nMore details information here."));
+        addItem(new DummyItem("4", "Kale\\Lemon Sandwiches", "Details about Item: \nMore details information here."));
+        addItem(new DummyItem("5", "Kale\\Lemon Sandwiches", "Details about Item: \nMore details information here."));
+        addItem(new DummyItem("6", "Kale\\Lemon Sandwiches", "Details about Item: \nMore details information here."));
+        addItem(new DummyItem("7", "Kale\\Lemon Sandwiches", "Details about Item: \nMore details information here."));
+        addItem(new DummyItem("8", "Kale\\Lemon Sandwiches", "Details about Item: \nMore details information here."));
+        addItem(new DummyItem("9", "Kale\\Lemon Sandwiches", "Details about Item: \nMore details information here."));
+
+
         // Add some sample items.
-        for (int i = 1; i <= COUNT; i++) {
-            addItem(createDummyItem(i));
-        }
+//        for (int i = 1; i <= COUNT; i++) {
+//            addItem(createDummyItem(i));
+//        }
     }
 
     private static void addItem(DummyItem item) {
@@ -38,7 +49,7 @@ public class DummyContent {
     }
 
     private static DummyItem createDummyItem(int position) {
-        return new DummyItem(String.valueOf(position), "Item " + position, makeDetails(position));
+        return new DummyItem(String.valueOf(position), "Food " + position, makeDetails(position));
     }
 
     private static String makeDetails(int position) {
